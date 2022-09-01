@@ -1,0 +1,28 @@
+.texto{
+    width: 735px;
+    text-align: center;
+    background-image: radial-gradient(#04353bab 40%, #00d4ffc2);
+    p{
+        margin: 0px 10px;
+        font-size: 25px;
+        font-family: cursive;
+    }
+}
+    
+@media (min-width:550px){
+    .texto{
+        width: 770px;
+        text-align: center;
+        background-image: radial-gradient(#04353bab 40%, #00d4ffc2);
+        p{
+            margin: 0px 10px;
+            font-size: 25px;
+            font-family: cursive;
+        }
+    }
+
+}
+@media (min-width:780px){
+    .texto{
+        width: 1024px;}
+}

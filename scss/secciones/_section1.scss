@@ -1,0 +1,39 @@
+.section1{
+    width: 735px;
+    background-image: radial-gradient(#21b0cfa8 40%, #060606);
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    h2{ 
+        width: 100vw;
+        text-align: center;
+    }
+        div{
+            width: 500px;
+        }
+    
+}
+@media (min-width:550px){
+    .section1{
+           width:770px;
+        h2{
+            width:770px;
+        }
+        div{
+            width: 770px;
+        }
+    }
+}
+@media (min-width:780px){
+    .section1{
+        width: 1024px;
+        h2{
+            width: 1024px;
+        }
+        div{
+            width: 1024px;
+        }
+    }
+}
